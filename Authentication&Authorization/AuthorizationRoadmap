@@ -1,0 +1,26 @@
+
+This should be the roadmap for preparing for the Authorization :
+* Role-based vs Policy-based.
+* Claim-based
+* Identity vs Principle
+* Stateless vs Stateful Authorization
+
+Then,
+* What is Token forwarding
+* What is RBAC
+* What is Multi tenancy
+
+
+
+Try creating some system design requirements: 
+
+**Design a scalable authentication system
+* Question focus: Handling millions of users, load balancing, session vs. token management, security, MFA, third-party login (Google/Facebook), database scalability, and caching 
+
+** Multi-tenant SaaS Authentication & RBAC
+* Question focus: Handling multiple tenants (tenantId isolation), using JWT or refresh tokens, managing roles (Admin/Editor/Viewer), OAuth integration, session revocation 
+
+** Authentication for Microservices
+*Question: Design auth for microservices at scale. Use a centralized identity provider, OAuth/OIDC, API Gateway, token-based auth, RBAC, and stateless session management 
+.
+
