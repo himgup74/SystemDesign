@@ -3,9 +3,12 @@ This should be the roadmap for preparing for the Authorization :
 * Role-based vs Policy-based.
 * Claim-based
 * Identity vs Principle
+* Session vs Token-based
 * Stateless vs Stateful Authorization
-
-Then,
+* OAuth2
+* Cookies
+* OpenID
+* SAML
 * What is Token forwarding
 * What is RBAC
 * What is Multi tenancy
@@ -23,4 +26,12 @@ Try creating some system design requirements:
 ** Authentication for Microservices
 *Question: Design auth for microservices at scale. Use a centralized identity provider, OAuth/OIDC, API Gateway, token-based auth, RBAC, and stateless session management 
 .
+** Question: How would you secure communication between services?
+Look at OAuth 2.0/OIDC, JWT for tokens, TLS encryption, role/attribute-based access control, auditing, and service mesh
+
+
+Then later :
+
+Implement using Azure 
+Other open source 
 
